@@ -16,8 +16,8 @@ export PATH=$PATH
 # Source ======================================================================={{{
 #===============================================================================
 # Source Prezto.
-if [[ -s "${ZDOTDIR:-$ZHOME}/zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$ZHOME}/zprezto/init.zsh"
+if [[ -s "${ZDOTDIR:-$ZHOME}/init.zsh" ]]; then
+  source "${ZDOTDIR:-$ZHOME}/init.zsh"
 fi
 # opp.zsh enables text objects for zsh
 # if [ ! -d "$HOME/.zsh/opp.zsh" ];then
