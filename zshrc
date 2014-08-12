@@ -3,14 +3,18 @@
 # Prezto Authors: Sorin Ionescu <sorin.ionescu@gmail.com>
 #===============================================================================
 # Configure Path ==============================================================={{{
+PATH=$HOME/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export PATH=$PATH
+
 # Path for zsh files (mostly ones that get sourced
 ZHOME=$HOME/.zsh
 if [ ! -d $ZHOME ];then
     mkdir -p $ZHOME
 fi
-# Export PATH
-PATH=$HOME/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-export PATH=$PATH
+
+# GOPATH -- where go packages are installed
+GOPATH=/usr/local/go
+export GOPATH=$GOPATH
 
 #===============================================================================}}}
 # Source ======================================================================={{{
