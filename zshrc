@@ -35,6 +35,11 @@ fi
 if [ -e $HOME/.zshrc.local ];then
     source $HOME/.zshrc.local
 fi
+
+# Summon Minion
+if [[ -d "$ZHOME/modules/minion" ]];then
+    source "$ZHOME/modules/minion/add_to_your_profile"
+fi
 #===============================================================================}}}
 # Settings ====================================================================={{{
 #===============================================================================
