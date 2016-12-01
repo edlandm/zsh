@@ -3,7 +3,7 @@
 # Prezto Authors: Sorin Ionescu <sorin.ionescu@gmail.com>
 #===============================================================================
 # Configure Path ==============================================================={{{
-PATH=$HOME/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PATH=$HOME/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 export PATH=$PATH
 
 # Path for zsh files (mostly ones that get sourced
@@ -52,7 +52,7 @@ GLOB_DOTS="true"
 HISTORY_IGNORE_DUPS="true"
 HISTORY_IGNORE_SPACE="true"
 NULL_GLOBS="true"
-#Set terminal type
+# Set terminal type
 export TERM="xterm-256color"
 # Lets you cd into a directory by just typing its name (without cd)
 setopt autocd
